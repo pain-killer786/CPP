@@ -12,10 +12,10 @@ int main()
 
     int sum=0;
     int originaln = n;
-    while (n>0)
+    while (n!=0)
     {
         int d=n%10;
-        sum=sum+pow(d,3);
+        sum=sum+round(pow(d,3));
         n=n/10;
     }
     
