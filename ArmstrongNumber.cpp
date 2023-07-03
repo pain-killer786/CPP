@@ -6,20 +6,26 @@ using namespace std;
 
 int main()
 {
-    int n;
+    int n,count=0;
     cout<<"Enter a number"<<endl;
     cin>>n;
 
     int sum=0;
     int originaln = n;
-    while (n!=0)
+    int temp=n;
+    while (temp!=0)
     {
-        int d=n%10;
-        sum=sum+round(pow(d,3));
-        n=n/10;
+        count++;
+        temp/=10;
+    }
+    while (originaln!=0)
+    {
+        int d=originaln%10;
+        sum=sum+round(pow(d,count));
+        originaln=originaln/10;
     }
     
-    if(sum==originaln)
+    if(sum==n)
     {
         cout<<"Armstrong"<<endl;
     }
