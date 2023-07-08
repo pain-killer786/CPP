@@ -1,10 +1,10 @@
 # C++
 This repository will contain all types of c++ programming
 
-## 1. How to install and run C/C++ ?
+## 1. How to install and run C++ ?
 
 ### Installation ->
-1. Create a ```C/C++``` virtual environment. 
+1. Create a ```C++``` virtual environment. 
 2. Clone the repo ```git clone https://github.com/pain-killer786/CPP.git``` or download the repository.
 3. Go to the cloned/downloaded directory, and navigate to your desired program -> ``` cd "folder_name" ```, and then to the code file.
 4. Run ``` pip3 install gcc ```.
