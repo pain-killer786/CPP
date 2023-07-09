@@ -1,3 +1,5 @@
+//Linear search, also known as sequential search, is a simple searching algorithm used to find a specific target value within a collection of elements. It sequentially checks each element in the collection until the target value is found or until the entire collection has been traversed.Linear search is a straightforward and basic search algorithm that can be applied to any collection, such as an array or a linked list, regardless of whether the elements are sorted or unsorted. However, it has a time complexity of O(n), where n represents the number of elements in the collection.
+
 #include<iostream>
 using namespace std;
 int main()
@@ -18,6 +20,7 @@ int main()
         if(arr[i]==key)
         {
             cout<<"Element Found at"<<" "<<i<<endl;
+            continue;
         }
     }
     return 0;
