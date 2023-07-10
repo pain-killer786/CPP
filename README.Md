@@ -21,6 +21,3 @@ This repository will contain all types of c++ programming
 
 ### Subarray 
  Contiguous Part of the Array
-
-
-![SreenShot](/relative/path/to/Screenshot 2023-07-10 224505.png?raw=true)
