@@ -3,7 +3,8 @@ using namespace std;
 int main()
 {
     int savings;
-    cin>>savings;
+    cout<<"Enter the amount saved"<<endl;
+    cin>>savings;    
 
     if(savings>5000)
     {
