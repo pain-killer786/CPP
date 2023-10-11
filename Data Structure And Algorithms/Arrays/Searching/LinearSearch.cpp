@@ -2,6 +2,18 @@
 
 #include<iostream>
 using namespace std;
+int LinearSearch(int arr[],int key,int n)
+{
+    for(int i=0;i<n;i++)
+    {
+        if (arr[i]==key)
+        {
+           return i;
+           continue;
+        }
+    }
+    return -1;
+}
 int main()
 {
     int size,key,i;
@@ -15,13 +27,7 @@ int main()
         cout<<"Enter a number"<<endl;
         cin>>arr[i];
     }
-    for(i=0;i<size;i++)
-    {
-        if(arr[i]==key)
-        {
-            cout<<"Element Found at"<<" "<<i<<endl;
-            continue;
-        }
-    }
+    cout<<"Element Found at "<<LinearSearch(arr,key,size)<<endl;
     return 0;
+
 }
