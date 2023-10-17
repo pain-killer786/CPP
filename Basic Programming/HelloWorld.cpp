@@ -4,7 +4,7 @@
 using namespace std;
 int main()
 {
-    std::cout<<"Hello World";  // Here :: is called scope resoulter.
+    std::cout<<"Hello World"<<endl;  // Here :: is called scope resoulter.
     cout<<"Hello World"<<endl;
     return 0;
 }
