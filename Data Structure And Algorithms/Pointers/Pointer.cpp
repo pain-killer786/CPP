@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-    int a=10; //variable named a stores the value a;
+    int a=10; //variable named a stores the value 10;
     int *aptr; // Declared a Pointer named aptr
     aptr= &a; // aptr stores the address of a
     int **aqtr=&aptr; //Declared another pointer aqtr which points to the aptr pointer
