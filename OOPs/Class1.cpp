@@ -29,6 +29,7 @@ void Employee :: setData(int a1,int b1, int c1)
 int main()
 {
     Employee harry;
+    //harry.a=134; Can't be accessed outside the class as it is private
     harry.setData(1,2,4);
     harry.d=34;
     harry.e=89;
