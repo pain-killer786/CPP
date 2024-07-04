@@ -30,7 +30,7 @@ int main()
 {
     Employee harry;
     //harry.a=134; Can't be accessed outside the class as it is private
-    harry.setData(1,2,4);
+    harry.setData(1,2,4); // It can access as it is a function
     harry.d=34;
     harry.e=89;
     harry.getData();
