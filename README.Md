@@ -17,6 +17,11 @@ This repository will contain all types of c++ programming
 - To run any program (with <math.h>), run ``` gcc filename.c -lm```, where filename is the name of the file you are wanting to execute.
 - Then type ``` ./a.out```, and then press Enter to execute successfully.
 
+# Getting Started
+
+### Problem Solving Skills
+    Problem->Pseudocode->program->Machine understandable-> Compiler
+
 # Subarray v/s Subesequence
 
 ### Subarray 
