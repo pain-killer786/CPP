@@ -32,7 +32,7 @@ int BinarySearch(int arr[],int n,int key)
 
 int main()
 {
-    int size,i;
+    int size;
     cout<<"Enter the size of the array"<<endl;
     cin>>size;
     int key;
@@ -40,7 +40,7 @@ int main()
     cin>>key;
 
     int arr[size];
-    for(i=0;i<size;i++)
+    for(int i=0;i<size;i++)
     {
         cout<<"Enter a number"<<endl;
         cin>>arr[i];
