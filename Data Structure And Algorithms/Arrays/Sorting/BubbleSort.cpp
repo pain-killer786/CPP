@@ -1,4 +1,4 @@
-// Repeatedly swap two adjacent elements if they are in Wrong Order.
+// Repeatedly swap two adjacent elements if they are in Wrong Order. Time Complexity= O(n^2). Space Complexity = O(1)
 
 #include <iostream>
 using namespace std;
