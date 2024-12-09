@@ -6,5 +6,5 @@
     "code-runner.runInTerminal": true,
     "code-runner.saveAllFilesBeforeRun": true,
     "code-runner.saveFileBeforeRun": true,
-    "python.analysis.typeCheckingMode": "basic"
+    "C_Cpp.errorSquiggles": "disabled"
 }

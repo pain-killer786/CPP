@@ -5,49 +5,47 @@ using namespace std;
 
 int BinarySearch(int arr[],int n,int key)
 {
-    int s=0;
-    int e=n;
-    while(s<=e)
+    int start=0;
+    int end=n-1;
+    int mid= start+(end-start)/2;
+    while(start<=end)
     {
-        int mid=(s+e)/2;
-
         if(arr[mid]==key)
         {
             return mid;
         }
         else if (arr[mid]>key)
         {
-            e=mid-1;
+            end=mid-1;
         }
         else
         {
-            s=mid+1;
+            start=mid+1;
         }
+        mid= start+(end-start)/2;
     }
     return -1;
 }
 
 
 
-
 int main()
 {
-    int size,i;
+    int size;
     cout<<"Enter the size of the array"<<endl;
     cin>>size;
-
-    int arr[size];
-    for(i=0;i<size;i++)
-    {
-        cout<<"Enter a number"<<endl;
-        cin>>arr[i];
-    }
-
     int key;
     cout<<"Enter the element to be Searched"<<endl;
     cin>>key;
 
-    cout<<BinarySearch(arr,size,key)<<endl;
+    int arr[size];
+    for(int i=0;i<size;i++)
+    {
+        cout<<"Enter a number"<<endl;
+        cin>>arr[i];
+    }    
+
+    cout<<"Element Found At "<<BinarySearch(arr,size,key)<<endl;
 
     return 0;
 }

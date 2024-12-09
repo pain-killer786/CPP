@@ -8,6 +8,6 @@ int main()
     t=a;
     a=b;
     b=t;
-    cout<<"The swapped numbers are:"<<a<<b<<endl;
+    cout<<"The swapped numbers are:"<<a<<" "<<b<<endl;
     return 0;
 }
