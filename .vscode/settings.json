@@ -7,5 +7,4 @@
     "code-runner.saveAllFilesBeforeRun": true,
     "code-runner.saveFileBeforeRun": true,
     "C_Cpp.errorSquiggles": "disabled"
-    "python.analysis.typeCheckingMode": "basic"
 }
