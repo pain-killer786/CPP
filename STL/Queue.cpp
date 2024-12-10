@@ -20,5 +20,7 @@ int main()
     cout<<"Front Element "<<s.front()<<endl;
 
     cout<<"Size after pop "<<s.size()<<endl;
+
+    return 0;
     
 }
