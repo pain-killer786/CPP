@@ -1,0 +1,9 @@
+# Ignore all Linux executable files
+*.out
+*.elf
+*.bin
+
+# Ignore all Windows executable files
+*.exe
+*.dll
+*.pdb
