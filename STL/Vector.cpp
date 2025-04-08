@@ -17,7 +17,7 @@ int main()
     vector<int> b(a);
 
     //Print the elements of vector 'b'
-    cout<<"Print b"<<endl;
+    cout<<"Print b:"<<" ";
     for (int i:b) //Ranged-based for loop to iterate over all elements in vector 'b'
     {
         cout<<i<<" ";
@@ -43,6 +43,9 @@ int main()
     cout<<"Size->"<<v.size()<<endl;
    
     v.push_back(4); //Add 4 to the vector
+    cout<<"Capacity ->"<<v.capacity()<<endl; //Check the updated capacity
+
+    v.emplace_back(5); //Add 5 to the vector
     cout<<"Capacity ->"<<v.capacity()<<endl; //Check the updated capacity
 
     //Access and print the element at the 2nd index using .at() (with bounds checking)
